@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.nova.annualtargets"
+    version   = "1.0.0">
+
+<name>Annual Targets</name>
+
+<description>
+Make progress to your targets.
+</description>
+
+<author href="http://novasoftware.com" email="cail@shinetechchina.com">
+Nova Software
+</author>
+
+  <preference name="permissions"      value="none"/>
+  <preference name="phonegap-version" value="2.9.0" />
+  <preference name="orientation"      value="portrait" />
+  <preference name="target-device"    value="universal" />
+  <preference name="fullscreen"       value="false" />
+
+  <plugin name="InAppBrowser" value="CDVInAppBrowser" />
+  
+  <icon src="res/icon.png" />
+</widget>
